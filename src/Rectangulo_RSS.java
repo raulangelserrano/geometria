@@ -13,9 +13,9 @@ public class Rectangulo_RSS extends FiguraGeometrica_RSS {
 	 * Extiende el constructor añadiendo la inicialización de los parámetros l1 y l2,
 	 * que son los lados del rectangulo
 	 * 
-	 * @param tipoFigura
-	 * @param lG
-	 * @param lP
+	 * @param tipoFigura indica el tipo de figura, rectángulo.
+	 * @param lG longitud del lado 1
+	 * @param lP longitud del lado 2
 	 */
 	public Rectangulo_RSS(String tipoFigura, double lG, double lP) {
 		super(tipoFigura);
